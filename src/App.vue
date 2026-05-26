@@ -1,17 +1,7 @@
 <script setup lang="ts">
-import LossesEditor from './components/editors/LossesEditor.vue';
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <div class="home">
-    <LossesEditor />
-  </div>
+  <RouterView />
 </template>
-
-<style scoped>
-.home {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-</style>
